@@ -1,0 +1,63 @@
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 编辑器 / IDE =====
+# vim 交换文件
+*.swp
+*.swo
+*~
+# 其他编辑器
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# ===== 日志 =====
+*.log
+logs/
+
+# ===== 环境变量 / 密钥 =====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ===== Node / 前端 =====
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.cache/
+
+# ===== Java / Spring =====
+target/
+build/
+*.class
+*.jar
+*.war
+!gradle/wrapper/gradle-wrapper.jar
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# ===== Go =====
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ===== 容器 / 运行时 =====
+.docker/
+tmp/
+.temp/
